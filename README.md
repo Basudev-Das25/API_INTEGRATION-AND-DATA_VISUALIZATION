@@ -54,22 +54,22 @@ Real-time charting using embedded Matplotlib in Tkinter
 Threaded API calls for non-blocking GUI operations
 
 Technologies & Libraries Used
-Library Purpose
-requests API calls to OpenWeatherMap
-pandas Data processing and transformation
-matplotlib Data visualization
-seaborn Enhanced chart aesthetics
-tkinter GUI creation (Python standard library)
-dotenv Load environment variables (API key)
-Pillow (PIL) Image processing (Tkinter UI icons/images)
-base64 Encode charts as HTML-embeddable images
-threading Asynchronous data fetching for responsive UI
-json Handling API responses
-datetime Timestamp conversion and formatting
-io.BytesIO In-memory chart rendering
-queue Thread communication in Tkinter GUI
-os File I/O, path handling
-warnings Suppress unnecessary warnings
+Library---------- Purpose
+requests--------- API calls to OpenWeatherMap
+pandas----------- Data processing and transformation
+matplotlib------- Data visualization
+seaborn---------- Enhanced chart aesthetics
+tkinter---------- GUI creation (Python standard library)
+dotenv----------- Load environment variables (API key)
+Pillow----------- (PIL) Image processing (Tkinter UI icons/images)
+base64----------- Encode charts as HTML-embeddable images
+threading-------- Asynchronous data fetching for responsive UI
+json------------- Handling API responses
+datetime--------- Timestamp conversion and formatting
+io.BytesIO------- In-memory chart rendering
+queue------------ Thread communication in Tkinter GUI
+os--------------- File I/O, path handling
+warnings--------- Suppress unnecessary warnings
 
 Setup Instructions
 
